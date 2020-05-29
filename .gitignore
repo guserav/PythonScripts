@@ -103,3 +103,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# END of copied gitignore
+
+notebooks/
+data/
