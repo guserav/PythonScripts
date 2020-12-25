@@ -6,7 +6,7 @@ import argparse
 # convertUp == False: for GRD - R1 - outV - R2 - inV
 def calculateVoltage(inV, r1, r2, convertUp=True):
     if convertUp:
-        return inV / r1 * r2;
+        return inV / r1 * (r1 + r2);
     else:
         return inV / (r1 + r2) * r1;
 
