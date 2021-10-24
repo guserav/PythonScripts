@@ -27,3 +27,6 @@ python youtube_rss_converter.py input "CONSENT=YES+fjeidndsop392-3014902klnvk3"
 
 ## Filter
 Filter a given input for the word tuples given in the filter. Each line of the filter is split into words and the program will output all lines of the input that match all the words of at least one line of the filter line. This is especially useful if you have a list of names and a list of names with more information and you want to filter all names with there information that are on the first list.
+
+## Train Passwords
+I created this script to get used to typing a new password. It allows for entering a password and then to type it repeatingly getting a correct/wrong feedback, hopefully without committing the password to the terminal output nor disk.
